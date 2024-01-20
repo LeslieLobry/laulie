@@ -1,11 +1,7 @@
-
-
-
-
 function Home (){
     return(
         <div className="test">
-           <p>test</p>
+            <p>LAulie WEB</p>
         </div>
     )
 }

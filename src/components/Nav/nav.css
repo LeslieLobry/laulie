@@ -1,0 +1,9 @@
+.nav-contenant{
+    display: flex;
+    gap: 2rem;
+}
+a{
+    text-decoration: none;
+    color: white; 
+    font-size: 2rem;
+}
