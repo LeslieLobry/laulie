@@ -1,8 +1,10 @@
-import Loader from "../../components/Loader/loader"
+import Animation from "../../components/Animation/animation.tsx"
+
+
 function Home (){
     return(
         <div className="home">
-            <Loader />
+            < Animation />
         <div className="test">
             <p>LAulie WEB</p>
         </div>
