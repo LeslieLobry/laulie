@@ -9,7 +9,7 @@ function Header (){
             <img src={Laulie} alt="développeur web Tourcoing"></img>
             </div>
             <div className="header-titre">
-                <h1>Créons ensemble votre visibilité</h1>
+                <h1>Développement ensemble votre visibilité</h1>
             </div>
             <NAV />
         </div>

@@ -1,0 +1,30 @@
+.footer-contenant{
+    background-color: #08473c;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+}
+
+.logo img{
+    height: 14rem;
+}
+.footer-tel{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 10px;
+    font-size: 22px;
+}
+.footer-mail{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 10px;
+    font-size: 22px;
+}
