@@ -30,6 +30,7 @@ input[type="submit" i]{
     background-color: #08473c;
     color: white;
     width: 19.5rem;
+    height: 3rem;
 }
 @media screen and (max-width: 950px){
     input{
