@@ -1,0 +1,39 @@
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    width: 50%;
+}
+.form-contenant{
+    margin-bottom: 30px;
+}
+label{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    color:#08473c
+}
+input{
+    width: 19rem;
+    height: 2rem;
+    color:#08473c;
+    font-size: 20px;
+}
+textarea{
+    width: 19rem;
+    height: 3rem;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+input[type="submit" i]{
+    background-color: #08473c;
+    color: white;
+    width: 19.5rem;
+}
+@media screen and (max-width: 950px){
+    input{
+        height: 3rem;
+    }
+
+}

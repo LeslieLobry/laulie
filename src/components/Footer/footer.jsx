@@ -1,4 +1,4 @@
-import Laulie from "../../assets/Laulie.png"
+import Logo from "../../assets/Logo.png"
 import "../Footer/footer.css"
 
 
@@ -6,7 +6,7 @@ function Footer (){
     return(
         <div className="footer-contenant">
             <div className="logo">
-                <img src={Laulie} alt="site internet dans le nord"></img>
+                <img src={Logo} alt="site internet dans le nord"></img>
             </div>
             <div className="footer-coordonnée">
                 <div className="footer-tel">

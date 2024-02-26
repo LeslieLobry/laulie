@@ -8,9 +8,22 @@
 }
 
 .header-logo img{
-    height: 17rem;
+    height: 9.5rem;
 }
 .header-titre h1{
-    font-size: 3rem;
+    font-size: 30px;
     color: white;
+}
+
+@media screen and (max-width: 950px){
+    .header-contenant{
+        display: flex;
+        flex-direction: column;
+    }
+    .header-logo img{
+        height: 8rem;
+    }
+    .header-titre h1{
+        font-size: 1rem;
+    }
 }
