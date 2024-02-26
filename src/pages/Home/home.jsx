@@ -1,8 +1,12 @@
+import Animation from "../../components/Animation/animation.tsx"
+
+
 function Home (){
     return(
         <div className="home">
-            <div className="test">
-                <p>LAulie WEB</p>
+            < Animation />
+        <div className="test">
+            <p>LAulie WEB</p>
         </div>
         </div>
     )
