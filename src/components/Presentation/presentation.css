@@ -1,0 +1,17 @@
+.presentation-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center; 
+}
+.presentation-texte{
+    display: flex;
+    flex-direction: column;
+}
+.presentation-img img{
+    height: 15rem;
+    border-radius: 100%;
+}
+.presentation-title{
+    border-bottom: 20px #08473c solid;
+}
