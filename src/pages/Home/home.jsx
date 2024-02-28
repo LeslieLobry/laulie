@@ -1,9 +1,9 @@
+import Banniere from "../../components/Banniere/banniere"
+
 function Home (){
     return(
         <div className="home">
-            <div className="test">
-                <p>LAulie WEB</p>
-            </div>
+            <Banniere />
         </div>
     )
 }
