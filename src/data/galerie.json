@@ -2,22 +2,26 @@
     {
         "id":"10",
         "titre":"Services", 
-        "photo":"https://i.postimg.cc/gcLh67s2/pexels-pixabay-270404.jpg"
+        "photo":"https://i.postimg.cc/gcLh67s2/pexels-pixabay-270404.jpg",
+        "liens": "services"
     }, 
     {
         "id":"11", 
         "titre":"Compétences", 
-        "photo": "https://i.postimg.cc/vBDFqfTG/pexels-olia-danilevich-8093033.jpg"
+        "photo": "https://i.postimg.cc/vBDFqfTG/pexels-olia-danilevich-8093033.jpg",
+        "liens": "compétences"
     }, 
     {
         "id":"12", 
         "titre":"Tarifs", 
-        "photo": "https://i.postimg.cc/V6LDP0Sv/Design-sans-titre-1.png"
+        "photo": "https://i.postimg.cc/V6LDP0Sv/Design-sans-titre-1.png",
+        "liens":"tarifs"
     }, 
     {
         "id":"13", 
         "titre":"Portfolio", 
-        "photo":"https://i.postimg.cc/L5BCkw8W/Design-sans-titre-3.png"
+        "photo":"https://i.postimg.cc/L5BCkw8W/Design-sans-titre-3.png", 
+        "liens":"portfolio"
     },
     {
         "id":"14",

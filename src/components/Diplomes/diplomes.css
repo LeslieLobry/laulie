@@ -1,0 +1,12 @@
+.diplome{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+} 
+.diplome-img img{
+    height: 8rem;
+}
+.diplome-text{
+    color: #41877b;
+    font-weight: 900;
+}

@@ -1,4 +1,4 @@
-import "../Portfolio/portfolio.css";
+import "../Portfolios/portfolios.css";
 import portfolio from "../../data/portfolio.json"
 
 function Portfolio (){

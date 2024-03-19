@@ -5,6 +5,10 @@ import Contact from "./pages/Contact/contact";
 import Header from "./components/Header/header";
 import Footer from "./components/Footer/footer";
 import Anim from "./components/Anim/anim";
+import Portfolio from "./pages/Portfolio/portfolio";
+import Compétences from "./pages/Compétences/compétences"
+import Services from "./pages/Services/services"
+import Tarifs from "./pages/Tarifs/tarifs"
 
 function App() {
   return (
@@ -16,6 +20,10 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="*" element={<Error />} />
           <Route path="/Contact" element={<Contact />} />
+          <Route path="/Portfolio" element={<Portfolio />} />
+          <Route path="/Compétences" element={<Compétences />} />
+          <Route path="/Services" element={<Services />} />
+          <Route path="/Tarifs" element={<Tarifs />} />
         </Routes>
         <Footer/>
       </Router>

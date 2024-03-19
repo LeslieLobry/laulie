@@ -5,7 +5,7 @@ function Galerie (){
 return(
 <section className="galerie">
     {galerie.map((product)=>{
-    return(<a href={product.liens}>
+    return(<a href={product.liens} className="galerie-liens">
         <div key={product.id} className="galerie-contenant">
             <div className="galerie-titre">
                 <h2>{product.titre}</h2>
