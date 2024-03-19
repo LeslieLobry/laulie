@@ -14,7 +14,7 @@ function Footer (){
                     📱<p>06.26.09.55.53</p>
                 </div>
                 <div className="footer-mail">
-                    📧 <p>laulieweb@gmail.com</p>
+                    📧 <p>contact@laulieweb.com</p>
                 </div>
             </div>
         </div>

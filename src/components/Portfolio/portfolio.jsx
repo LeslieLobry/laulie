@@ -18,12 +18,9 @@ function Portfolio (){
             {product.description}
         </div>
         </div>
-       
     </div>
     )
     })}
-    )
-
 </section>)
 
 

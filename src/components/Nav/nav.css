@@ -1,9 +1,9 @@
 .nav-contenant{
     display: flex;
     gap: 2rem;
+    font-size: 2rem;
 }
-a{
+a:-webkit-any-link {
     text-decoration: none;
     color: white; 
-    font-size: 2rem;
 }
