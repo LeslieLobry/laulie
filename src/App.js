@@ -4,7 +4,6 @@ import Error from "./pages/Erreur/erreur";
 import Contact from "./pages/Contact/contact";
 import Header from "./components/Header/header";
 import Footer from "./components/Footer/footer";
-import Anim from "./components/Anim/anim";
 import Portfolio from "./pages/Portfolio/portfolio";
 import Compétences from "./pages/Compétences/compétences"
 import Services from "./pages/Services/services"
@@ -14,7 +13,6 @@ function App() {
   return (
     <div>
       <Router>
-        <Anim />
         <Header/>
         <Routes>
           <Route path="/" element={<Home />} />

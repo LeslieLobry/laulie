@@ -20,10 +20,6 @@
     align-items: center;
     position: relative;
 }
-.galerie-titre :hover{
-    transform: scale(1.01);
-    width: 100%;
-}
 .galerie-titre{
     display: flex;
     position: absolute;
@@ -31,6 +27,8 @@
     width: 100%;
     justify-content: center;
     color: white;
+    animation: backInUp;
+    animation-duration: 4s;
 }
 
 @media screen and (max-width: 950px){
