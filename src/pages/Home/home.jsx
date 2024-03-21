@@ -1,10 +1,10 @@
 import Galerie from "../../components/Galerie/galerie"
-import Anim from "../../components/Anim/anim"
+import Banniere from "../../components/Banniere/banniere"
 function Home (){
     return(
        
         <div className="home">
-             <Anim />
+            <Banniere />
             <Galerie />
         </div>
     )

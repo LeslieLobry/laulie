@@ -1,10 +1,10 @@
 .footer-contenant{
     background-color: #08473c;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
     padding: 1%;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
 }
 
 .logo img{
@@ -27,4 +27,27 @@
     color: white;
     gap: 10px;
     font-size: 22px;
+}
+.footer-coordonnée{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.footer-insta img{
+    width: 5rem;
+    animation: bounce;
+    animation-duration: 2s;
+}
+.footer-mail :hover{
+    animation: bounce;
+    animation-duration: 2s;
+}
+
+@media screen and (max-width: 950px){
+    .footer-contenant{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
 }

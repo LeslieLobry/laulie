@@ -1,26 +1,26 @@
-import { useParams } from "react-router-dom"
 import "../Tarifs/tarifs.css"
 import tarifs from "../../data/tarifs.json"
 import React from "react";
 
 
 function Tarifs (){
-    const { id } = useParams();
-    const product = tarifs.find((item) => item.id === id)
-    const listEquipments = product?.details.map((details, list)=>
-    {
-     return <li key={list}>{details}</li>
-        })
         return(
              <div className="tarifs-contenant">
                 {tarifs.map((product=>{
                     return(
-                        <div key={product.id} className="tarfis-base">
+                        <div key={product.id} className="tarifs-base">
                             <div className="tarifs-titre">
                                 <h2>{product.name}</h2>
                             </div>
                             <div className="tarifs-details">
-                                <p>{listEquipments}</p>
+                                <li>{product.details[0]}</li>
+                                <li>{product.details[1]}</li>
+                                <li>{product.details[2]}</li>
+                                <li>{product.details[3]}</li>
+                                <li>{product.details[4]}</li>
+                                <li>{product.details[5]}</li>
+                                <li>{product.details[6]}</li>
+                                <li>{product.details[7]}</li>
                             </div>
                             <div className="tarifs-prix">
                                 <p>{product.Prix}</p>

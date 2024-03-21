@@ -10,10 +10,7 @@ function Header (){
             <div className="header-logo">
                 <Link to="/"className="link"><img src={Logo} alt="développeur web Tourcoing"></img></Link> 
             </div>
-            <div className="header-titre">
-                <h1>Développons ensemble votre visibilité</h1>
-            </div>
-            <NAV />
+                <NAV />
         </div>
     )
 }
