@@ -1,0 +1,30 @@
+[
+    {
+        "id":"31", 
+        "name":"Site Vitrine", 
+        "Prix":"600 €",
+        "details": [
+            "Site internet avec nombre de page demandé",
+            "Site responsive",
+            "Hébergement/Serveur",
+            "Optimisation référencement",
+            "Elaboration maquette avec le client (Figma)",
+            "Mise à jour, dépanage"
+        ]
+    }, 
+    {
+        "id":"32", 
+        "name":"Site e-commerce", 
+        "Prix":"1500 €",
+        "details": [
+            "Site e-commerce",
+            "Site responsive",
+            "Gestion de produit",
+            "Espace client",
+            "Hébergement/Serveur",
+            "Optimisation référencement",
+            "Elaboration maquette avec le client (Figma)",
+            "Mise à jour, dépanage"
+        ]
+    }
+]
