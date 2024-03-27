@@ -4,6 +4,8 @@
     grid-gap: 30px;
     padding: 50px;
     align-content: center;
+    animation: backInLeft;
+    animation-duration: 5s;
 }
 .galerie-img{
     width: 100%;
@@ -29,6 +31,9 @@
     color: white;
     animation: backInUp;
     animation-duration: 4s;
+}
+.galerie-titre h2 {
+    animation:pulse 4s infinite;
 }
 
 @media screen and (max-width: 950px){

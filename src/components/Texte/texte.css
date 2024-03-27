@@ -1,0 +1,16 @@
+.service-accordeon-contenant{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    gap: 2rem;
+}
+.service-contenant{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+.service-titre{
+    color:#08473c;
+    animation:pulse 4s infinite;
+    margin-left: 1.5rem;
+
+}

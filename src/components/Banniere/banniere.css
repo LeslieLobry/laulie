@@ -13,9 +13,10 @@
     text-align: center;
     padding: 2em;
   }
-  h1 {
+.banniere h1 {
     text-align: center;
     font-family: 'Kavoon', sans-serif;
     font-size: 2.5em;
     color: white;
+    animation:pulse 4s infinite;
   }
