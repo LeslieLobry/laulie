@@ -12,7 +12,8 @@ function Contact (){
                 </div>
                 <div className="contact-form">
                 <Form />  
-                </div>    
+                </div>
+                <div className="bg"><img src="https://i.postimg.cc/ZKPDZFfY/pexels-pixabay-263564.jpg"alt="développeur web tourcoing"></img></div>
         </div>
 )
 }
