@@ -1,0 +1,4 @@
+.portfolio-elmt{
+    display: flex;
+    flex-direction: column;
+}
