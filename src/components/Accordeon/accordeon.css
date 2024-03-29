@@ -4,26 +4,35 @@
 }
 .accordion{
     display: flex;
-    background-color: #08473c;
     flex-basis: 100%;
     padding: 15px;
     border-radius: 10px;
-    color: white;
+    background-color: white;
+    color: #08473c;
+}
+.accordion:hover{
+    animation : shakeX 2s;
 }
 .accordion-title{
     display: flex;
     flex-basis: 100%;
+    font-size: 25px;
 
 }
 .accordion-content{
-    background-color: #F6F6F6;
-    color:#08473c ;
+    background-color:#08473c;
+    color:white ;
 }
 .accordion-content p{
     padding: 15px;
     margin: 0;
 }
-
 .chevron_up{
     transform: rotate(180deg);
+}
+
+.chevron{
+    background-color: #08473c;
+    height: 100%;
+    animation: swing 3s;
 }

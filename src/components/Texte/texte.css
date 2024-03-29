@@ -9,8 +9,25 @@
     margin: 1rem;
 }
 .service-titre{
-    color:#08473c;
-    animation:pulse 4s infinite;
-    margin-left: 1.5rem;
-
+    color:white;
+    display: flex;
+    justify-content: center;
+}
+.service-titre h1{
+    font-size: 3rem;
+}
+.service-entete{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.service-entete p{
+    font-size: 1.5rem;
+}
+@media screen and (max-width: 950px){
+    .service-accordeon-contenant{
+        display: flex;
+        flex-direction: column;
+    }
 }

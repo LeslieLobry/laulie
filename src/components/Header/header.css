@@ -1,11 +1,22 @@
 .header-contenant{
-    background-color: #08473c;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 1%;
+    /* background: #33CCCC; Fallback */
+    /* animation: color 9s infinite linear; */
+    text-align: center;
+    width: 100%;
 }
+/* @keyframes color {
+    0%   { background: #08473c; }
+    20%  { background: #669e0c; }
+    40%  { background: #B8CC33; }
+    60%  { background: #FCCA00; }
+    80%  { background: #33CC36; }
+    100% { background: #08473c; }
+  } */
+  
 
 .header-logo img{
     height: 9.5rem;

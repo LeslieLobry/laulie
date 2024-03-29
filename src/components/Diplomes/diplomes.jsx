@@ -1,9 +1,11 @@
 import "../Diplomes/diplomes.css"
 import diplome from "../../data/diplome.json"
+import Animationpage from "../Animpage/animapage"
 
 function Diplomes (){
     return(
         <section className="diplome">
+            <Animationpage />
             <div className="diplome-text">
                 <p>Mes différentes Compétences :</p>
             </div>

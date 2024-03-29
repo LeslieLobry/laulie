@@ -19,7 +19,8 @@
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    margin: 1rem;
+    font-size: 20px;
+    align-items: center;
 }
 .tarifs-details li{
     display: flex;
@@ -41,6 +42,11 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    height: 3rem;
     animation: mymove 5s infinite;
+}
+.tarifs-titre h2{
+    font-size: 25px;
+}
+.tarifs-prix p{
+    font-size: 25px;
 }

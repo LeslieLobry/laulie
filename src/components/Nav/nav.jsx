@@ -6,7 +6,7 @@ function Nav (){
     return(
         <div className="nav-contenant">
             <Link to="/" className="link"><p>Accueil</p></Link>
-            <Link to="/Contact"><p>Contact</p></Link>
+            <Link to="/Contact"className="link"><p>Contact</p></Link>
         </div>
     )
 }

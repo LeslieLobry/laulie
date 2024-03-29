@@ -9,10 +9,15 @@
     flex-direction: column;
 }
 .presentation-title{
-    border-bottom: 20px #08473c solid;
+  display: flex;
+ justify-content: center;
+}
+.presentation-title h1{
+    color: white;
 }
 .presentation-info p{
     font-size: 20px;
+    color: white;
 }
 @media screen and (max-width: 950px){
     .presentation-container{

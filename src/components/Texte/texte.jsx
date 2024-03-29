@@ -8,8 +8,8 @@ return (
         <h1>Bienvenue chez Laulie Web,</h1>
     </div>
     <div className="service-entete">
-        <p>votre partenaire numérique pour propulser votre présence en ligne vers de nouveaux
-        sommets. Je suis passionnée et dévouée, spécialisée dans la création de sites web sur mesure, le développement
+        <p>Votre partenaire numérique pour propulser votre présence en ligne vers de nouveaux
+        sommets.<br></br> Je suis passionnée et dévouée, spécialisée dans la création de sites web sur mesure,<br></br> le développement
         d'e-commerce et l'optimisation de la visibilité en ligne.
         </p>
     </div>

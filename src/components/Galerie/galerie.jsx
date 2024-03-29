@@ -1,9 +1,11 @@
 import "../Galerie/galerie.css"
 import galerie from "../../data/galerie.json"
 
+
 function Galerie (){
 return(
 <section className="galerie">
+
     {galerie.map((product)=>{
     return(<a href={product.liens} className="galerie-liens">
         <div key={product.id} className="galerie-contenant">

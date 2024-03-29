@@ -12,12 +12,12 @@ label{
     display: flex;
     align-items: center;
     font-size: 25px;
-    color:#08473c
+    color:white
 }
 input{
     width: 19rem;
     height: 2rem;
-    color:#08473c;
+    color: white;
     font-size: 20px;
 }
 textarea{
@@ -27,8 +27,8 @@ textarea{
     margin-bottom: 15px;
 }
 input[type="submit" i]{
-    background-color: #08473c;
-    color: white;
+    background-color:white;
+    color:#08473c;
     width: 19.5rem;
     height: 3rem;
 }
