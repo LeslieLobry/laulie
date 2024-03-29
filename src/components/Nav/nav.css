@@ -5,5 +5,7 @@
 }
 a:-webkit-any-link {
     text-decoration: none;
-    color: white; 
+}
+a:-webkit-any-link p{
+    color: white;
 }

@@ -5,8 +5,8 @@ import "../Nav/nav.css"
 function Nav (){
     return(
         <div className="nav-contenant">
-            <Link to="/" className="link">Accueil</Link>
-            <Link to="/Contact">Contact</Link>
+            <Link to="/" className="link"><p>Accueil</p></Link>
+            <Link to="/Contact"><p>Contact</p></Link>
         </div>
     )
 }

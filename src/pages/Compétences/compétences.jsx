@@ -6,7 +6,6 @@ function Compétences (){
         <div className="competences-contenant">
         <Presentation />
         < Diplomes />
-        <div className="bg"><img src="https://i.postimg.cc/vBDFqfTG/pexels-olia-danilevich-8093033.jpg"alt="développeur web tourcoing"></img></div>
         </div>
         
     )

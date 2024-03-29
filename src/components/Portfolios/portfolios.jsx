@@ -6,19 +6,21 @@ function Portfolio (){
     <section className="portfolio">
         { portfolio.map((product)=>{
     return(
-    <div className="portfolio-contenant">
+    
         <div key={product.id}>
+            <a href={product.liens} className="portfolio-contenant">
         <div className="portfolio-title">
-            {product.nom}
+            <h2>{product.nom}</h2>
         </div>
         <div className="portfolio-img">
         <img src={product.image} alt="dev web"></img>
         </div>
-        <div className="portfolio-descrition">
+        <div className="portfolio-description">
             {product.description}
         </div>
+        </a>
         </div>
-    </div>
+    
     )
     })}
 </section>)

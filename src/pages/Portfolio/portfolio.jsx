@@ -7,7 +7,6 @@ return(<div className="portfolio-elmt">
         <h3>Cette page ne demande qu'à se remplir 🙂</h3>
     </div>
     < Portfolios />
-    <div className="bg"><img src="https://i.postimg.cc/L5BCkw8W/Design-sans-titre-3.png"alt="développeur web tourcoing"></img></div>
 </div>
 
 )
