@@ -9,7 +9,11 @@
 .diplome-text{
     color: #41877b;
     font-weight: 900;
+    animation: bounce 3s;
 }
 .diplome-text p{
     font-size: 20px;
+}
+.diplome-contenant{
+    animation:fadeInLeftBig 3s ;
 }

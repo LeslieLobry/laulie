@@ -14,9 +14,9 @@ return(
 
             📱<p>06.26.09.55.53</p>
         </div>
-        <div className="footer-mail">
-            📧 <p>contact@laulieweb.com</p>
-        </div>
+        
+            <a href="mailto:contact@laulieweb.com"className="footer-mail">📧 <p>contact@laulieweb.com</p></a>
+        
         <a href="https://www.instagram.com/laulieweb/" className="footer-insta"><img src={instagram}
                 alt="développeur web Tourcoing"></img></a>
     </div>
