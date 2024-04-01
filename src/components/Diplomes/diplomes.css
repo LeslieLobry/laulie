@@ -17,3 +17,9 @@
 .diplome-contenant{
     animation:fadeInLeftBig 3s ;
 }
+@media screen and (max-width: 950px){
+    .diplome{
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -36,13 +36,8 @@
 }
 .footer-insta img{
     width: 5rem;
-    animation: bounce;
-    animation-duration: 2s;
 }
-.footer-mail :hover{
-    animation: bounce;
-    animation-duration: 2s;
-}
+
 
 @media screen and (max-width: 950px){
     .footer-contenant{
@@ -50,4 +45,5 @@
         flex-direction: column;
         gap: 0;
     }
+    
 }

@@ -35,8 +35,8 @@
     width: 100%;
 }
 .portfolio-img img {
-    width: 100%;
-    height: 250px;
+    width: 25rem;
+    height:15rem;
 }
 .titre{
     display: flex;
@@ -53,4 +53,10 @@
 }
 .portfolio-title:hover{
     opacity: 0;
+}
+@media screen and (max-width: 950px){
+    .portfolio{
+        display: flex;
+        flex-direction: column;
+    }
 }

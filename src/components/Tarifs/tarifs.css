@@ -50,3 +50,10 @@
 .tarifs-prix p{
     font-size: 25px;
 }
+@media screen and (max-width: 950px){
+    .tarifs-contenant{
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+    }
+}
