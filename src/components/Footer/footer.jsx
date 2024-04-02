@@ -1,6 +1,8 @@
 import Logo from "../../assets/Logo.png"
 import "../Footer/footer.css"
 import instagram from "../../assets/instagram.png"
+import { Link } from "react-router-dom"
+
 
 function Footer (){
 return(
@@ -19,6 +21,10 @@ return(
         
         <a href="https://www.instagram.com/laulieweb/" className="footer-insta"><img src={instagram}
                 alt="développeur web Tourcoing"></img></a>
+    </div>
+    <div className="footer-mentions">
+        <div className="mentions-copy"><p>© Laulie Web</p></div>
+        <Link to={`mentions`}className="mentions-liens">Mentions Légales</Link> 
     </div>
     </div>
 )

@@ -33,9 +33,10 @@
 }
 .portfolio-img{
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 .portfolio-img img {
-    width: 25rem;
     height:15rem;
 }
 .titre{

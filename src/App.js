@@ -9,6 +9,7 @@ import Compétences from "./pages/Compétences/compétences"
 import Services from "./pages/Services/services"
 import Tarifs from "./pages/Tarifs/tarifs"
 import Animpage from "./components/Animpage/animapage";
+import Mentions from "./pages/Mentions/mentions"
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/Compétences" element={<Compétences />} />
           <Route path="/Services" element={<Services />} />
           <Route path="/Tarifs" element={<Tarifs />} />
+          <Route path="/Mentions" element={<Mentions />} />
         </Routes>
         <Footer/>
       </Router>

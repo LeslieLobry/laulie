@@ -37,8 +37,19 @@
 .footer-insta img{
     width: 5rem;
 }
-
-
+.mentions-copy p{
+    font-size: 25px;
+    color: white;
+}
+.mentions-liens a{
+    text-decoration: none;
+    color: white;
+}
+.footer-mentins{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 @media screen and (max-width: 950px){
     .footer-contenant{
         display: flex;
